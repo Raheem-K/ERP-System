@@ -1,0 +1,166 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.view {
+  background-color: #afd3e2;
+  height: 100vh;
+}
+.menu-view {
+  background-color: #37306b;
+}
+.table-view {
+  height: 60%;
+  background-color: rgb(249, 250, 251);
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 1px solid white;
+}
+.center {
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  text-align: center;
+}
+.btn-style {
+  width: 10rem;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+  padding-top: 10px;
+  font-size: 12px;
+}
+.bg-link {
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+.bg-link:hover {
+  background: rgba(143, 196, 243, 0.45);
+}
+
+.message-box {
+  text-align: center;
+  display: block;
+  justify-content: space-between;
+  z-index: 10;
+  width: 450px;
+  height: 150px;
+  padding: 20px;
+  background-color: brown;
+  color: aliceblue;
+  position: absolute;
+  top: 40%;
+  right: 35%;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+  border: 1px solid rgba(255, 255, 255, 0.64);
+}
+.hidden {
+  display: none;
+}
+.blur {
+  width: 100%;
+  height: 100vh;
+  background-color: #0a2647;
+  filter: blur(50px);
+  position: relative;
+}
+.btn-custom {
+  margin-top: 10px;
+}
+.form-lable {
+  color: aliceblue;
+}
+
+.btn-update {
+  background-color: #f2d13d;
+}
+.btn-update:hover {
+  background-color: #ebd15d;
+}
+.btn-delete {
+  background-color: #e90064;
+}
+.btn-delete:hover {
+  background-color: #d5035e;
+}
+.system-title {
+  margin-top: 10px;
+  margin-bottom: 70px;
+  color: #afd3e2;
+}
+
+.view-title {
+  margin-top: 10px;
+}
+.icon {
+  text-align: right;
+  font-size: 20px;
+}
+.col-9 h6 {
+  padding: 0 7px;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: end;
+}
+.img-hh {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: end;
+}
+.message-box2 {
+  text-align: center;
+  display: block;
+  justify-content: space-between;
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+
+  background-color: brown;
+  color: aliceblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* From https://css.glass */
+  background: rgba(5, 33, 61, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(255, 255, 255, 0.64);
+}
+.wel-msg {
+  margin-top: 200px;
+}
+.veiw-link {
+  color: #ffffff;
+  margin-top: 20px;
+}
+.de {
+  color: white;
+}
+.ab_link {
+  color: white;
+}
